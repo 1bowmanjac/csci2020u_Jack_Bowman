@@ -26,7 +26,7 @@ public class Main extends Application {
         directoryChooser.setInitialDirectory(new File("."));
         Controller.mainDirectory = directoryChooser.showDialog(primaryStage);
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("assignment_1");
         primaryStage.setScene(new Scene(root, 800, 800));
         primaryStage.show();
     }
