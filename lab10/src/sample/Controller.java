@@ -14,13 +14,7 @@ public class Controller {
     private TextField usernameField;
     @FXML
     private TextField messageField;
-    @FXML
-    private TextField serverTextField;
 
-    @FXML
-    public void setServerTextField(String message){
-        serverTextField.setText( serverTextField.getText() + "\n" + message);
-    }
     @FXML
     public void sendMessage() throws IOException {
         String message = usernameField.getText() + ": " + messageField.getText();
